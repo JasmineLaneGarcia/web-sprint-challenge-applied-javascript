@@ -31,7 +31,7 @@
     tempDisplay.textContent = temp;
 
     return headerDisplay;
-    
+
 }
 
 
@@ -43,6 +43,9 @@
   //
 
   const headerAppender = (selector) => {
+    const headerContainer = document.querySelector(selector);
+    const header = Header("Lambda Times", "4/9/2021", "30°");
+    headerContainer.appendChild(header);
 
 }
 
